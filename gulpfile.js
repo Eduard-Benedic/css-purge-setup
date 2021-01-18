@@ -12,7 +12,7 @@ gulp.task('css', function () {
           .pipe(cleanCSS({compatibility: 'ie8'}))
           .pipe(rename({
                extname: '.css',
-               basename: 'campus-purged-ver2'
+               basename: 'home-purged'
          }))
          .pipe(gulp.dest('./dest'));
 });
